@@ -1,0 +1,118 @@
+h1{
+    text-align:center;
+    justify-content: center;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://collegevine.imgix.net/cda87169-2d6c-4abc-85d8-4877e9bb0e47.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+/*FOR THE TABLE*/
+table{
+    width:100%;
+    padding: 15px;
+    text-align:center;
+    background-color: rgba(255,255,255,0.3);
+}
+
+td{
+    border-radius: 10%;
+    height: 70px;
+}
+
+th {
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    
+}
+
+/*for the headings of the Days of the Week*/
+.daysOfTheWeek {
+    text-decoration: underline black 2px;
+    font-size: 26px;
+    padding: 0px 10px 20px 10px;
+    margin: 0 10px 0 10px;
+}
+
+
+/*For each class type*/
+.big-ideas { 
+    text-align:center;
+    border: 1px solid black;
+    background-color: rgba(155,220,246, 0.7);
+}
+
+.big-ideas-lab{ 
+    border: 1px solid black; 
+    background-color: rgba(114, 204, 255, 0.6);
+    padding-bottom: 50px;
+}
+
+p{
+    font-weight: 800;
+    font-size: 20px;
+    text-align:center;
+    padding: 5px;
+}
+
+.discrete-structures{
+    border: 1px solid black;
+    padding-bottom: 40px;
+    background-color: rgba(255, 60, 60, 0.5);
+}
+
+.discrete-structures-lab{
+    border: 1px solid black;
+    background-color: rgba(255, 172, 114, 0.3);
+    padding-bottom: 50px;
+}
+
+.intermediate-programming{
+    border: 1px solid black;
+    background-color: rgba(229,246,155, 1);
+
+}
+
+.intermediate-programming-lab {
+    border: 1px solid black;
+    background-color: rgba(229,246,155, 0.5);
+}
+
+/*Activities, Club, and Work Shift Types */
+.work {
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.work-cleanplay {
+    border: 1px solid black;
+    
+}
+
+.work, .work-cleanplay {
+    background-color: rgba(170,226,163,0.7);
+}
+
+.wics {
+    border: 1px solid black;
+    background-color: rgba(250,105,156, 0.6);
+    padding-bottom: 50px;
+}
+
+.intermediate-python {
+    border: 1px solid black;
+    background-color: rgba(92,207,69, 0.8);
+}
+
+.csc {
+    border: 1px solid black;
+    background-color: rgba(3,26,216, 0.5);
+    padding-bottom: 50px;
+}
